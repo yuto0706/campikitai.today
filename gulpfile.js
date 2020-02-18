@@ -9,3 +9,9 @@ gulp.task('sass', function (done) {
         .pipe(gulp.dest('./css/'));
     done();
 });
+
+gulp.task('watch', function () {
+    gulp.watch('./scss/**/*.scss', gulp.series('sass'));
+});
+
+gulp.task('default', gulp.series('watch'));
