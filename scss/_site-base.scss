@@ -1,10 +1,10 @@
 body {
 	line-height: 1.7;
-	color: rgba($white, .5);
+	color: rgba($site-text, .5);
 	font-weight: 400;
 	font-size: 1.1rem;
 	font-family: $font-family-sans-serif;
-	background: #222831;
+	background: $site-bg;
 }
 ::-moz-selection { 
 	background: $black;
@@ -31,7 +31,10 @@ a {
 	background: $black!important;
 }
 .bg-dark {
-	background: #13171d!important;
+	background: $site-bg-dark!important;
+}
+.bg-primary {
+	background: $site-bg-primary!important;
 }
 
 .line-height-sm {
@@ -85,6 +88,8 @@ a {
 		font-size: $font-size-base - .1rem;
 	}
 	&.btn-primary {
+		background-color: $site-btn-primary!important;
+		border-color: $site-btn-primary!important;
 		color: $white;
 	}
 	&.btn-outline-primary {
@@ -296,4 +301,9 @@ a {
 			bottom: 0;
 		}
 	}
+}
+
+.padded-multi-line-primary, .unit-9 h2 {
+	background: $site-btn-primary!important;
+	box-shadow: 10px 0 0 $site-btn-primary, 0px 0 0 $site-btn-primary!important;
 }
