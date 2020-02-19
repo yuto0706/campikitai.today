@@ -1,5 +1,6 @@
-$site-text:      $white;
-$site-bg:          #7fa998;
-$site-bg-dark:     #f1f1b0;
-$site-bg-primary:  #df8543;
-$site-btn-primary: #9d2503;
+$site-text:           $white;
+$site-bg-primary:   #7fa998;
+$site-bg-secondary: #f1f1b0;
+$site-bg-tertiary:  #df8543;
+$site-primary:      #9d2503;
+$site-primary-dark:   darken($site-primary, 15%);

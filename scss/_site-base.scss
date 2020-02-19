@@ -4,7 +4,7 @@ body {
 	font-weight: 400;
 	font-size: 1.1rem;
 	font-family: $font-family-sans-serif;
-	background: $site-bg;
+	background: $site-bg-primary;
 }
 ::-moz-selection { 
 	background: $black;
@@ -18,8 +18,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Oswald', sans-serif;
 }
 a {
+	color: $site-primary;
 	transition: .3s all ease;
 	&:hover {
+		color: $site-primary-dark;
 		text-decoration: none;
 	}
 }
@@ -31,10 +33,10 @@ a {
 	background: $black!important;
 }
 .bg-dark {
-	background: $site-bg-dark!important;
+	background: $site-bg-secondary!important;
 }
 .bg-primary {
-	background: $site-bg-primary!important;
+	background: $site-bg-tertiary!important;
 }
 
 .line-height-sm {
@@ -88,8 +90,8 @@ a {
 		font-size: $font-size-base - .1rem;
 	}
 	&.btn-primary {
-		background-color: $site-btn-primary!important;
-		border-color: $site-btn-primary!important;
+		background-color: $site-primary!important;
+		border-color: $site-primary!important;
 		color: $white;
 	}
 	&.btn-outline-primary {
@@ -115,7 +117,9 @@ a {
 			}
 		}
 	}
-	
+	.btn-link {
+		color: $site-primary!important;
+	}
 }
 
 .bg-black {
@@ -124,7 +128,7 @@ a {
 .form-control {
 	height: 47px;
 	&:active, &:focus {
-		border-color: $primary;
+		border-color: $site-primary;
 	}
 	&:hover, &:active, &:focus {
 		box-shadow: none!important;
@@ -175,7 +179,7 @@ a {
 	}
 	&.overlay-primary {
 		&:before {
-			background: rgba($primary, .9);
+			background: rgba($site-primary, .9);
 		}
 	}
 	&.overlay-info {
@@ -290,20 +294,15 @@ a {
 		color: $white;
 		position: relative;
 		
-		// border-bottom: 2px solid $primary;
+		// border-bottom: 2px solid $site-primary;
 		padding-bottom: 15px;
 		&:before {
 			content: "";
-			background: $primary;
+			background: $site-primary;
 			width: 40px;
 			height: 2px;
 			position: absolute;
 			bottom: 0;
 		}
 	}
-}
-
-.padded-multi-line-primary, .unit-9 h2 {
-	background: $site-btn-primary!important;
-	box-shadow: 10px 0 0 $site-btn-primary, 0px 0 0 $site-btn-primary!important;
 }

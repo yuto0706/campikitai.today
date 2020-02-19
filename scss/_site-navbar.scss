@@ -144,7 +144,7 @@
 							display: block;
 							&:hover {
 								// background: lighten($gray-4, 2%);
-								color: $primary;
+								color: $site-primary;
 							}
 						}
 
@@ -162,7 +162,7 @@
 							&:hover, &:active, &:focus {
 								> a {
 									// background: lighten($gray-4, 2%);
-									color: $primary;
+									color: $site-primary;
 								}
 							}
 						}
@@ -276,7 +276,7 @@
 			position: relative;
 			color: $gray-900;
 			&:hover {
-				color: $primary;
+				color: $site-primary;
 			}
 		}
 		li {
@@ -284,7 +284,7 @@
 			display: block;
 			&.active {
 				> a {
-					color: $primary;
+					color: $site-primary;
 				}
 			}
 		}
