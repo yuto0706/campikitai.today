@@ -1326,6 +1326,17 @@
 	}
 }
 
+.covid19-heading {
+	margin-bottom: 0 !important;
+
+	h2 {
+		font-size: 0.8rem;
+		letter-spacing: .2em;
+		text-transform: uppercase;
+		color: $white;
+	}
+}
+
 .backgroundimg {
 	background-size: cover;
 	background-position: center center;

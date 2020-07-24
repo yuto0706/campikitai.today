@@ -38,6 +38,9 @@ a {
 .bg-primary {
 	background: $site-bg-tertiary!important;
 }
+.bg-covid19 {
+	background: #ff9a76!important;
+}
 
 .line-height-sm {
 	line-height: 1.3;
@@ -146,6 +149,16 @@ a {
 	}
 }
 
+.covid19 {
+	padding: 3em 0;
+	@include media-breakpoint-up(md) {
+		padding: 1em 0;
+	}
+
+	&.site-section-sm {
+		padding: 4em 0;
+	}
+}
 
 .bg-text-line {
   display: inline;

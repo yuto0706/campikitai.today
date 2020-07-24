@@ -40,6 +40,9 @@ a {
 .bg-primary {
   background: #00818a !important; }
 
+.bg-covid19 {
+  background: #ff9a76 !important; }
+
 .line-height-sm {
   line-height: 1.3; }
 
@@ -122,6 +125,14 @@ a {
     .site-section {
       padding: 7em 0; } }
   .site-section.site-section-sm {
+    padding: 4em 0; }
+
+.covid19 {
+  padding: 3em 0; }
+  @media (min-width: 768px) {
+    .covid19 {
+      padding: 1em 0; } }
+  .covid19.site-section-sm {
     padding: 4em 0; }
 
 .bg-text-line {
@@ -1626,6 +1637,14 @@ a {
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%); }
+
+.covid19-heading {
+  margin-bottom: 0 !important; }
+  .covid19-heading h2 {
+    font-size: 0.8rem;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: #fff; }
 
 .backgroundimg, .site-block-retro .col1, .site-block-retro .col2 > a {
   background-size: cover;
