@@ -132,6 +132,8 @@ a {
   @media (min-width: 768px) {
     .covid19 {
       padding: 1em 0; } }
+  .covid19 a {
+    color: #F0E68C; }
   .covid19.site-section-sm {
     padding: 4em 0; }
 
