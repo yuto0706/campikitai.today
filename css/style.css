@@ -230,6 +230,7 @@ a {
     margin-bottom: 15px; } }
 
 .site-footer {
+  background: #0a043c;
   padding: 4em 0; }
   @media (min-width: 768px) {
     .site-footer {
